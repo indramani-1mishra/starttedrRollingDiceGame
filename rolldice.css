@@ -1,0 +1,109 @@
+body
+{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container
+{
+    display:flex;
+    height:500px;
+    border:2px solid green;
+    justify-content:center;
+    flex-direction:column;
+    width:500px;
+    align-items:center;
+    
+}
+#playercontainer
+{
+    border:2px solid gray;
+    display:flex;
+    width:90%;
+     justify-content:space-around;
+    background:linear-gradient(#bc8686,wheat,#4d9f9f)
+    
+}
+#player1,#player2
+{
+    border:2px solid gray;
+    width:50%;
+    margin:3px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.span12
+{
+    border:2px solid green;
+    height:30px;
+    width:92%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:2px;
+    padding:2px;
+    
+    
+    
+    
+}
+.span12>p{
+    margin-left:6px;
+}
+#user1,#user2
+{
+    height:100px;
+    border:2px solid silver;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to right, #ff7e5f, #feb47b);
+    
+    
+}
+#user1>img,#user2 >img
+{
+    height:50%;
+     padding:5px;
+    
+}
+#controls
+{
+    height:100px;
+    border:2px solid green;
+    width:90%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+button
+{
+    padding:10px;
+    border:none;
+     background-color:#7bba33;
+
+      width:100px;
+    border-radius:7px;
+    cursor:pointer;
+    color:white;
+    
+}
+#header
+{
+    border:2px solid green;
+    width:90%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:#e0dede;
+
+    background:linear-gradient(#E64A19,#dbdbdb,#50b050);
+    
+    
+}

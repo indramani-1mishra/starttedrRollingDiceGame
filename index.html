@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rolling dice Game</title>
+    <link rel="stylesheet" href="rolldice.css">
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <h1>Rolling Dice Game</h1>
+            <h1 id="win"></h1>
+        </div>
+        
+        <div id="playercontainer">
+    
+            <div id="player1">
+                <div class="scoreuser">
+                    <h2>Player 1</h2>
+                    <div class="span12">
+                        <p>Dice</p>
+                        <p id="player1score">0</p>  <!-- Unique ID for Player 1's score -->
+                    </div>
+                </div>
+                <div id="user1">
+                    <img src="ph/one.png" alt="" id="image1">
+                </div>
+            </div>
+    
+            <div id="player2">
+                <div class="scoreuser">
+                    <h2>Player 2</h2>
+                    <div class="span12">
+                        <p>Dice</p>
+                        <p id="player2score">0</p>  <!-- Unique ID for Player 2's score -->
+                    </div>
+                </div>
+                <div id="user2">
+                    <img src="ph/six.png" alt="" id="image2">
+                </div>
+            </div>
+    
+        </div>  <!-- playercontainer div properly closed -->
+        
+        <div id="controls">
+            <button id="rolldice">Roll Dice</button>
+            <button id="exit1">Reset Game</button>
+        </div>
+    
+    </div>  <!-- container div properly closed -->
+    
+
+   <script src="rollingdiec.js"></script>
+
+  <!-- Add your JavaScript code here -->
+</body>
+</html>
